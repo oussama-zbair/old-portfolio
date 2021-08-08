@@ -150,8 +150,6 @@ displaySection("about-me","about-me-section");
 displaySection("skills","skills-section");
 displaySection("projects","projects-section");
 displaySection("links","links-section");
-displaySection("certification","certificate-section ");
-displaySection("contact","contact-section");
-displaySection("education","eduacation-section");
+
 
 
