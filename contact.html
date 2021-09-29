@@ -10,7 +10,7 @@
     <script src="https://kit.fontawesome.com/ad9cb0368b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/index.css">
     <link rel="shortcut icon" href="https://www.flaticon.com/premium-icon/icons/svg/3242/3242257.svg" >
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://js.hcaptcha.com/1/api.js?hl=fr" async defer></script>
     <title>Oussama Zbair</title>
 </head>
 <style>
@@ -128,33 +128,6 @@ select{
         
       <div style="font-family: Roboto; border-radius: 5px; padding: 1px 30px; width: 75%;">
         <h2 style="font-size:30px">Let's talk</h2>
-
-        <!-- <form method="POST"  action="">
-            <ul class="form-style-1">
-                <li><label>Full Name <span class="required">*</span></label><input type="text" name="fullname" class="field-divided" required />
-                <li>
-                    <label>Email <span class="required">*</span></label>
-                    <input type="email" name="email"  class="field-divided" required />
-                </li>
-                <li>
-                    <label>Subject</label>
-                   <input type="text" name="subject" class="field-divided"/>
-                </li>
-                <li>
-                    <label>Your Message <span class="required">*</span></label>
-                    <textarea name="message" id="field5" class="field-long field-textarea" required></textarea>
-                </li>
-                <li>
-                    <input type="submit" value="send"/>
-                    <button>
-                        <a href="./index.html">Home</a>
-                    </button>
-                </li>
-            </ul>
-            
-            </form> -->
-
-            <!-- modify this form HTML and place wherever you want your form -->
 <form action="https://formspree.io/f/xwkazpwz" method="POST">
     <ul class="form-style-1">
         <li>
@@ -170,8 +143,7 @@ select{
               </label>
         </li>
         <li>
-            <div class="g-recaptcha" data-sitekey="6LcdUJscAAAAAN0-wAV--xOmiUw9QeWBDZr3ZISJ"></div>
-            <br/>
+            <div class="h-captcha" data-sitekey="dcf97ebd-2e99-40ea-b0a8-4b7e8765da49" data-theme="dark" data-error-callback="onError"></div>
             <button type="submit">Send</button>
             <button>
                 <a href="./index.html">Home</a>
