@@ -427,59 +427,7 @@ article li {
 }
 
 
-/* certificate section */
-#certificate-section {
-  display: flex;
-}
-
-#certificate-wrapper {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(30rem, 0.5fr));
-  gap: 3em;
-}
-
-#certificate-wrapper > div {
-  background-color: var(--background-color);
-  padding: 0 1em;
-  display: flex;
-  align-items: stretch;
-  box-shadow: 0px 0px 0px 5px var(--light-accent-color),
-    15px 15px 0px 5px var(--light-accent-color);
-}
-#certificate-wrapper > div:hover {
-  box-shadow: 0px 0px 0px 5px, 0px 0px 0px 5px;
-  transition: all 0.4s;
-}
-
-#certificate-wrapper > div > div {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  padding-right: 2em;
-}
-#certificate-wrapper > div h3 em {
-  font-size: 0.7em;
-  font-weight: 400;
-  word-wrap: none;
-  white-space: nowrap;
-}
-#certificate-wrapper> div h3 a:hover {
-  text-decoration: underline;
-  opacity: 0.5;
-  position: relative;
-  top: -2px;
-}
-#certificate-wrapper img {
-  width: 200px;
-  height: 300px;
-  padding: 1em;
-  margin: 1em 1em 1em 2em;
-  opacity: 0.8;
-  box-shadow: 2px 2px 0px 4px rgba(240, 240, 240, 0.5),
-    -2px -2px 0px 0px var(--light-accent-color);
-}
-
-/*-------------------- */ 
+ 
 
 .tags {
   display: flex;

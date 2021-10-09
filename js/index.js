@@ -40,6 +40,12 @@ function displaySection(link,section) {
                 s.style.display = "flex";
                 s.style.flexDirection = "column";
 
+            } else if (section == "certificate-section") {
+                let s = document.querySelector("#certificate-wrapper");
+
+                s.style.display = "flex";
+                s.style.flexDirection = "column";
+
             } else if (section == "links-section") {
                 let linkWrapper = document.querySelector(`#${section} div`);
                 linkWrapper.style.display = "flex";
