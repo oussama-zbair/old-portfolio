@@ -123,6 +123,50 @@ select{
 
 </div>
 
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+  /* paste this line in verbatim */
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+  formbutton("create", {
+    theme:"classic",
+    action: "https://formspree.io/f/mleaqzga",
+    title: "How can we help?",
+    fields: [
+    {
+      name: "name",
+      type: "text",
+      label: "Your Name",
+      required: true,
+      placeholder:"username"
+    },
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "email",
+        required: true,
+        placeholder: "your@email.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        placeholder: "What's on your mind?",
+      },
+      { type: "submit" }      
+    ],
+    styles: {
+      fontFamily:'"Lato", sans-serif',
+      button: {
+        background: "545353"
+      },
+      title: {
+        background: "#545353",
+        letterSpacing: "0.05em",
+        textTransform: "uppercase"
+      }
+    }
+  });
+</script>
 
 <script src="js/index.js"></script> 
 </html>
